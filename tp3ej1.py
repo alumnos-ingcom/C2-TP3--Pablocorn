@@ -12,4 +12,10 @@ def ingreso_entero(mensaje):
         except ValueError as err:
             print("error ingrese numero nuevo")
             continue
-        return entero    
+        return entero
+
+def ingreso_entero_reintento(mensaje, cantidad_reintentos=5):
+     do:
+         ingreso_entero(mensaje)
+     while
+    
