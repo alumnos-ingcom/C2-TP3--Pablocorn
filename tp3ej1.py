@@ -13,9 +13,19 @@ def ingreso_entero(mensaje):
             print("error ingrese numero nuevo")
             continue
         return entero
+#
+#def ingreso_entero_reintento(mensaje, cantidad_reintentos=5):
+#    do:
+#         esentero=ingreso_entero(mensaje)
+#        si  esentero es un entero
+#             resultado= verdadero
+#        else
+#            resultado=falso
+#    while(resultado)
 
-def ingreso_entero_reintento(mensaje, cantidad_reintentos=5):
-     do:
-         ingreso_entero(mensaje)
-     while
+# def ingreso_entero_restringido(mensaje, valor_minimo=0, valor_maximo=10):
+    
+    #si entero es menor a valor_maximo y menor a valor_minimo
+      #  entonces
+      #  return
     
