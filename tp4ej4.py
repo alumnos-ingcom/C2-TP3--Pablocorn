@@ -11,3 +11,10 @@ def compara(numero, otro_numero):
         return 0
     else:
         return 1
+
+def prueba():
+    resultado= compara(2,1)
+    print(resultado)
+    
+if __name__ == "__main__":
+    prueba()    
