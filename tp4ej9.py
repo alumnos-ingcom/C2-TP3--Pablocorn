@@ -12,7 +12,11 @@ def es_primo(numero):
     else:
         return False
 
-for j in range(1,101):
+def prueba():
+    for j in range(1,101):
         #prueba para los primeros 100 numeros
-        print("el numero",j,"es primo?",es_primo(j))
+        print("el numero",j,"es primo?",es_primo(j)) 
+
     
+if __name__ == "__main__":
+    prueba()
