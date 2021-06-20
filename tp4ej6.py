@@ -14,3 +14,10 @@ def maximo(lista):
         if(lista[i]>mayor):
             mayor=lista[i]
     return mayor
+
+def prueba():
+    lista=[63,66,433,72,43,62,8,1,29,42,41]
+    print(minimo(lista))
+    print(maximo(lista))
+if __name__ == "__main__":
+    prueba()
