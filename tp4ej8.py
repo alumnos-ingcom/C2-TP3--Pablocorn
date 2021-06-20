@@ -15,3 +15,12 @@ def ordenar_mayor_a_menor(uno, dos, tres):
     lista.sort(reverse=True)
     tupla=tuple(lista)
     return tupla
+
+def prueba():
+    mayor_men=ordenar_mayor_a_menor(4,8,3)
+    menor_may=ordenar_menor_a_mayor(4,8,3)
+    print(menor_may)
+    print(mayor_men)
+    
+if __name__ == "__main__":
+    prueba()
