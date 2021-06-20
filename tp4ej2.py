@@ -14,3 +14,13 @@ def suma_lenta(numero, otro_numero):
         else:
             print(str(suma-1),'+',str(int((abs(otro_numero)/otro_numero))),'=',str(suma))
     return suma
+
+
+def prueba():
+    resultado_sumalenta=suma_lenta(4,5)
+    print(resultado_sumalenta)
+
+    
+    
+if __name__ == "__main__":
+    prueba()
