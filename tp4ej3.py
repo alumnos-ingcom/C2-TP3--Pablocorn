@@ -14,3 +14,14 @@ def convertir_a_fahrenheit(centigrados):
 def convertir_a_centigrados(fahrenheit):
     centi=(fahrenheit-32)/1.8
     return centi
+
+def prueba():
+    centi=32
+    faren=32
+    cent_a_faren=convertir_a_fahrenheit(centi)
+    faren_a_centi=convertir_a_centigrados(faren)
+    print(str(faren),"°F son: ",str(faren_a_centi),"°C")
+    print(str(centi),"°C son: ",str(cent_a_faren),"°F")
+
+if __name__ == "__main__":
+    prueba()
