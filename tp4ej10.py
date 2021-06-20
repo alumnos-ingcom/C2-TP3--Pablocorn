@@ -14,3 +14,13 @@ def es_palindromo(texto):
         else:
             resultado=True
     return resultado
+
+def prueba():
+    #caso falso
+    print(es_palindromo("banana"))
+    #caso verdadero
+    print(es_palindromo("anana"))
+
+
+if __name__ == "__main__":
+    prueba()
