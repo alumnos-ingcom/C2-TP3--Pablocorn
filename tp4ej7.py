@@ -5,11 +5,20 @@
 def division_lenta(dividendo, divisor):
     termino=True
     resultado_parcial=dividendo
-    contador=0
+    cociente=0
     while termino:
         if(resultado_parcial>=divisor):
             resultado_parcial=resultado_parcial-divisor
-            contador=contador+1
+            cociente=cociente+1
         else:
             termino=False
-    return contador
+    resto=dividendo-(cociente*divisor)
+    return (cociente,resto)
+
+def prueba():
+    print(division_lenta(10,10))
+    print(division_lenta(12,4))
+    print(division_lenta(10,5))
+    
+if __name__ == "__main__":
+    prueba()
